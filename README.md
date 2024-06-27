@@ -1,5 +1,5 @@
 This is a react app.<br>
-To run this project locally, you can follow this step.
+To run this project locally, you can follow this step in your terminal $
 
 1. `git clone https://github.com/ArkaKarmoker/Travel-List/`
 2. `cd Travel-List`
