@@ -130,3 +130,88 @@ input[type="checkbox"] {
   font-weight: 700;
   padding: 3.2rem 0;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  h1 {
+    font-size: 6rem;
+    word-spacing: 20px;
+    letter-spacing: -3px;
+    padding: 1.6rem 0;
+  }
+
+  .add-form {
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1.6rem 0;
+  }
+
+  h3 {
+    margin: 0 0 1.6rem 0;
+    font-size: 2rem;
+  }
+
+  button,
+  select,
+  input {
+    padding: 1rem 2.4rem;
+    font-size: 1.6rem;
+  }
+
+  .list {
+    padding: 2rem 0;
+    gap: 1.6rem;
+  }
+
+  .list ul {
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .stats {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 45%;
+  }
+
+  h1 {
+    font-size: 5rem;
+    word-spacing: 15px;
+    letter-spacing: -2px;
+    padding: 1.2rem 0;
+  }
+
+  .add-form {
+    padding: 1.2rem 0;
+  }
+
+  button,
+  select,
+  input {
+    padding: 0.8rem 2rem;
+    font-size: 1.4rem;
+  }
+
+  .list ul {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+
+  .list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list li button {
+    font-size: 1.6rem;
+  }
+}
